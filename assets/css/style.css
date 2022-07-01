@@ -1,0 +1,104 @@
+
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+body {
+    background: #ffffff;
+}
+
+
+.startBtn {
+
+position:absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 50%;
+height: 20%px;
+}
+
+.startBtn button {
+
+    font-size: x-large;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding: 20px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: purple;
+    cursor: pointer;
+}
+
+.infoBox {
+    width: 540px;
+    background: purple;
+    border-radius: 5px;
+}
+
+.infoBox, .infoTitle {
+height: 60px;
+width: 100%;
+border-bottom: 1px solid rgb(0, 0, 0);
+display: flex;
+align-items: center;
+padding: 0 35px;
+font-size: larger;
+font-weight: 600;
+}
+
+
+.infoBox, .info {
+    margin: 5px 0;
+    font-size: large;
+    align-items: center;
+}
+
+.infoBox, .info {
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    padding: 15px 35px;
+}
+
+.info, .buttons {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 35px;
+    border-top: 1px black;
+}
+
+.infoBox .buttons button {
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid ;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.buttons button.redo {
+    color: rgb(255, 255, 255);
+    border-color:purple;
+    background:purple;
+}
+
+.buttons button.end {
+    color: rgb(255, 255, 255);
+    border-color:purple;
+    background:purple;
+}
+
+button.end:hover, button.redo:hover, button.startBtn:hover {
+    background: white;
+}
